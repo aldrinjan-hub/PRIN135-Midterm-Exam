@@ -1,0 +1,63 @@
+body 
+{
+background-image: url(https://picsum.photos/1080/720?random=1)
+}
+
+form 
+{
+  width: 70vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  text-align: center
+}
+label
+{
+  display: block;
+  margin-bottom: 1px;
+}
+
+.email
+{
+text-align: left;
+}
+
+.password
+{
+  text-align: left;
+}
+
+.remember
+{
+  margin-top: -5px;
+  text-align: left;
+}
+
+.enterpass
+{
+  margin-top: -16px;
+  
+}
+.enteremail
+{
+  margin-top: -16px;
+
+}
+
+.remeberme
+{
+  text-align: right;
+}
+
+input[type="login"]
+{
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+  height: 1.5em;
+  font-size: 1.1rem;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
