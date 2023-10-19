@@ -1,9 +1,10 @@
 body 
 {
-background-image: url(https://picsum.photos/1080/720?random=1)
+background-image: url(https://fastly.picsum.photos/id/889/1080/720.jpg?hmac=UQUWxZ3XbMlWvwoOJhDtoEZyFVUrZBaK_ZWl6xVclO8);
+color: white;
 }
 
-input[type="Sign up"]
+input[type="submit"]
 {
   display: block;
   width: 70%;
@@ -13,6 +14,16 @@ input[type="Sign up"]
   background-color: green;
   text-align: center;
   color: white;
+}
+form 
+{
+  width: 70vw;
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  text-align: center;
+  background: rgba(0,0,0,0.7); 
 }
 .name
 {
@@ -27,4 +38,26 @@ input[type="Sign up"]
 .age
 {
     margin-top: -2px
+}
+
+input[type="submit"]:hover
+{
+  display: block;
+  width: 70%;
+  margin: 1em auto;
+  height: 1.5em;
+  font-size: 1.1rem;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+.submit:hover
+{
+    background-color: red
+}
+
+.hoverlogin:hover
+{
+    background: white;
 }
